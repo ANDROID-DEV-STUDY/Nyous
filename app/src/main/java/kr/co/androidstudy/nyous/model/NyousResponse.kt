@@ -9,5 +9,6 @@ data class NyousResponse(
         val totalResults : Int,
         val articles : List <NyousPost>
 
+
 )
 
