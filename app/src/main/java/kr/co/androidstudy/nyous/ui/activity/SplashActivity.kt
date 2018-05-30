@@ -42,7 +42,6 @@ class SplashActivity : BaseActivity() {
     protected lateinit var backLayout: View
 
     protected lateinit var mainLayout: View
-//    614eb38392ca4a0ab90477bb19ac5433
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -8,9 +8,9 @@ import kr.co.androidstudy.nyous.model.NyousResponse
  */
 
 interface NyousRepository {
-    // 일반 헤드라인 뉴우스
-    fun headlineNyous(apiKey: String, country: String) : LiveData<NyousResponse>
-
-    // 카테고리 설정 헤드라인 뉴우스
-    fun categoryHeadlineNyous(apiKey: String, country: String, category: String) : LiveData<NyousResponse>
+//    // 일반 헤드라인 뉴우스
+//    fun headlineNyous(apiKey: String, country: String) : LiveData<NyousResponse>
+//
+//    // 카테고리 설정 헤드라인 뉴우스
+//    fun categoryHeadlineNyous(apiKey: String, country: String, category: String) : LiveData<NyousResponse>
 }
